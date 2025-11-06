@@ -1,5 +1,5 @@
 
-#import "@local/research-note:0.1.0": *
+#import "@local/bananote:0.1.0": *
 
 #show: note.with(
   title: [My Research Note],

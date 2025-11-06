@@ -15,7 +15,7 @@ then
     exit 1
 fi
 
-RELEASE_DIR=release/preview/research-note/$VERSION
+RELEASE_DIR=release/preview/bananote/$VERSION
 
 # Put together release
 rm -rf $RELEASE_DIR
