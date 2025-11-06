@@ -3,7 +3,9 @@
 
 #show: note.with(
   title: [My Research Note],
-  authors: (([Alexander Koller], [Saarland University]),),
+  authors: (
+    ([Alexander Koller], [Saarland University]),
+  ),
   version: [0.1]
 )
 
@@ -43,3 +45,41 @@ $ <eq:5>
 
 #lorem(50)
 
+
+= Another Section
+
+#lorem(50)
+
+= Another Section
+
+#lorem(50)
+
+= Another Section
+
+#lorem(50)
+
+= Another Section
+
+#lorem(50)
+
+= Another Section
+
+#lorem(50)
+
+= Another Section
+
+#lorem(50)
+
+= Another Section
+
+#lorem(50)
+
+
+= Another Section
+
+#lorem(50)
+
+
+= Another Section
+
+#lorem(50)
