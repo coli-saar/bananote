@@ -1,9 +1,11 @@
 
 #import "@local/bananote:0.1.0": *
+#import "@preview/pergamon:0.5.0": *
+
 
 #show: note.with(
   title: [My Research Note],
-  authors: (([Alexander Koller], [Saarland University]),)
+  authors: (([My Name], [My Affiliation]),)
 )
 
 #abstract[
@@ -24,3 +26,12 @@
 = Another Section
 
 #lorem(50)
+
+
+/*
+// Uncomment this to typeset the bibliography:
+
+#add-bib-resource(read("bibliography.bib"))
+#print-bananote-bibliography()
+*/
+

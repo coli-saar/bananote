@@ -4,7 +4,7 @@
 
 #import "@preview/pergamon:0.5.0": *
 
-#let sans = "New Computer Modern Sans"
+#let sans = ("New Computer Modern Sans", "Libertinus Serif")
 #let sans-weight = 800
 #let serif = "Libertinus Serif"
 
@@ -60,7 +60,7 @@
 
 
     text(size: text-size, weight: "bold", name)
-    if i == 0 {
+    if i == 0 and date != none {
       h(1fr)
       date.display("[day] [month repr:long] [year]")
     }
