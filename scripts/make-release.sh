@@ -23,6 +23,7 @@ mkdir -p $RELEASE_DIR/template
 
 cp lib.typ $RELEASE_DIR/lib.typ
 cp README.md $RELEASE_DIR/lib.typ
+cp LICENSE $RELEASE_DIR/lib.typ
 cp template/thumbnail.png $RELEASE_DIR/
 cp template/blank.typ $RELEASE_DIR/template/main.typ
 
