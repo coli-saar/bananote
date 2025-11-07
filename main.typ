@@ -1,4 +1,4 @@
-
+#import "@preview/pergamon:0.5.0": *
 #import "lib.typ": *
 
 #show: note.with(
@@ -6,7 +6,8 @@
   authors: (
     ([Alexander Koller], [Saarland University]),
   ),
-  version: [0.1]
+  highlight-by: "Koller",
+  version: [1]
 )
 
 #abstract[
@@ -35,42 +36,28 @@ $ <eq:5>
 
 #lorem(20)
 
-= Another Section
+Here's an example citation: #citet("ehop-2025").
+
+Here's a reference to another section: @sec:2.
+
+
+=== A subsubsection
 
 #lorem(50)
 
-#lorem(50)
-
-#lorem(50)
-
+==== A paragraph
 #lorem(50)
 
 
-= Another Section
-
-#lorem(50)
-
-= Another Section
-
-#lorem(50)
 
 = Another Section
+<sec:2>
 
 #lorem(50)
 
-= Another Section
-
 #lorem(50)
 
-= Another Section
-
 #lorem(50)
-
-= Another Section
-
-#lorem(50)
-
-= Another Section
 
 #lorem(50)
 
@@ -79,7 +66,37 @@ $ <eq:5>
 
 #lorem(50)
 
+= Another Section
+
+#lorem(50) #cite("knuth1990")
 
 = Another Section
 
 #lorem(50)
+
+= Another Section
+
+#lorem(50)
+
+= Another Section
+
+#lorem(50)
+
+= Another Section
+
+#lorem(50)
+
+
+= Another Section
+
+#lorem(50)
+
+
+= Another Section
+
+#lorem(50)
+
+
+
+#add-bib-resource(read("bibliography.bib"))
+#print-bananote-bibliography()
