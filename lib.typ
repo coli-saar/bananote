@@ -42,6 +42,7 @@
   date: datetime.today(),
   version: none,
   highlight-by: (),
+  banana-color: yellow,
   doc
 ) = {
   set text(font: serif, size: text-size)
@@ -88,7 +89,7 @@
         #box(width: 2em)[
             #context {
               align(right)[
-                  #box(fill: yellow, width: 1em, height: 1em)[
+                  #box(fill: banana-color, width: 1em, height: 1em)[
                     #if it.numbering != none {
                       align(center+horizon,            
                         text(font: sans, weight: sans-weight, size: heading-size, [#counter(heading).get().first()])

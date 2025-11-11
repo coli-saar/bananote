@@ -7,7 +7,7 @@
     ([Alexander Koller], [Saarland University]),
   ),
   highlight-by: "Koller",
-  version: [1]
+  version: [1],
 )
 
 #abstract[
