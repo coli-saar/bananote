@@ -1,4 +1,4 @@
-#import "@preview/pergamon:0.5.0": *
+#import "@preview/pergamon:0.6.0": *
 #import "lib.typ": *
 
 #show: note.with(

@@ -12,7 +12,7 @@ The style has splashes of yellow, inspired by the [Dagstuhl LIPIcs style](https:
 Import bananote and populate the header with the title and authors, as follows.
 
 ```
-#import "@preview/bananote:0.1.0": *
+#import "@preview/bananote:0.1.1": *
 
 #show: note.with(
   title: [My Research Note],

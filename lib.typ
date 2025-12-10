@@ -2,7 +2,7 @@
 // This style is for internal research notes.
 // It is modeled roughly after the Dagstuhl LIPIcs style, https://submission.dagstuhl.de/documentation/authors
 
-#import "@preview/pergamon:0.5.0": *
+#import "@preview/pergamon:0.6.0": *
 
 #let sans = ("New Computer Modern Sans", "Libertinus Serif")
 #let sans-weight = 800

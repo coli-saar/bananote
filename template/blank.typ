@@ -1,6 +1,6 @@
 
-#import "@preview/bananote:0.1.0": *
-#import "@preview/pergamon:0.5.0": *
+#import "@local/bananote:0.1.1": *
+#import "@preview/pergamon:0.6.0": *
 
 
 #show: note.with(
@@ -28,10 +28,9 @@
 #lorem(50)
 
 
-/*
 // Uncomment this to typeset the bibliography:
+// #add-bib-resource(read("bibliography.bib"))
+// #print-bananote-bibliography()
 
-#add-bib-resource(read("bibliography.bib"))
-#print-bananote-bibliography()
-*/
+
 
